@@ -1,0 +1,33 @@
+.fizz-buzz-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.word-wrap {
+  box-sizing: border-box;
+  padding: 1rem;
+  min-width: 50%;
+}
+
+.number {
+  color: #c2c2c2
+}
+
+.word {
+  margin-left: .5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  .word-wrap {
+    min-width: 25%;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .word-wrap {
+    min-width: 12.5%;
+  }
+}

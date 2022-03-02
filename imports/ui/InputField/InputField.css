@@ -1,0 +1,14 @@
+input.field {
+  border: 1px solid white;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  border-radius: .25rem;
+  padding: .5rem;
+  width: 5rem;
+  margin-right: 1rem;
+  transition: transform .2s ease-in;
+}
+
+input.field:hover, input.field:focus {
+  transform: scale(1.1)
+}
